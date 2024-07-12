@@ -1,0 +1,19 @@
+
+
+
+<Tag Name> Starting Tag
+</Tag Name> Ending Tag
+
+<HTML> Content </HTML>
+
+Main Three Tags   
+
+<HTML>
+	<HEAD>
+
+	</HEAD>
+	<BODY>
+
+	</BODY>
+
+</HTML>

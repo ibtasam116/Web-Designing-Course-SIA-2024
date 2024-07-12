@@ -1,0 +1,25 @@
+
+.main-heading{
+    text-decoration: underline red double;
+}
+.first-para{
+    text-decoration: underline;
+    font-family:  sans-serif;
+}
+
+.bars-icon{
+    color: green;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+.wrod{
+    width: 20%;
+    padding: 10px;
+    height: 30vh;
+    border: 2px solid brown;
+word-break: break-all;
+    /* overflow: auto; */
+}

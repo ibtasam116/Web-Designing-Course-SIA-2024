@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: white;
+}
+
+.ste1 {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    margin-top: 3px;
+}
+
+.darkmode {
+    float: right;
+    margin: 17px;
+}
+
+.darkmode button {
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.darkmode a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#main {
+    background-color: #282828;
+}
+
+
+/* Main start   */
+table, th, td{
+    border:2px solid #D7D7D7   ;
+    border-collapse: collapse;
+    /* font-size: 17px; */
+}
+
+.timetable h2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-weight: 900;
+}
+
+.week th {
+    padding: 10px;
+}
+
+.cisco td{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.graphic td{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.it td {
+    padding: 10px 0px 10px 0px;
+    text-align: center;    
+}
+
+.webandmobile td {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.video td{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+
+#fot {
+    text-align: center;
+    margin: -10px 0px 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

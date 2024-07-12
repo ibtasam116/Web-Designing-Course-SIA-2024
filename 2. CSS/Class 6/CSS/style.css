@@ -1,0 +1,36 @@
+.box1 {
+    border: 3px solid red;
+    width: 40%;
+    background-color: pink;
+    float: left;
+}
+
+.box2 {
+    border: 5px solid purple;
+    background-color: orangered;
+    width: 30%;
+    margin-bottom: 30px;
+    float: right;
+}
+
+#box3 {
+    border: 3px solid blue;
+    background-color: cadetblue;
+    clear: both;
+}
+
+#ui{
+    border: 8px solid green ;
+    width: 20%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+#ui:hover{
+    box-shadow: 0px 0px 50px 30px orangered;
+    background-color: aqua;
+    font-size: 30px;
+    
+}

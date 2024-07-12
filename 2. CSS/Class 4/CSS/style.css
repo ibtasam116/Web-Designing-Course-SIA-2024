@@ -1,0 +1,55 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+.width_height {
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+}
+
+.firstDive {
+    border: 2px solid purple;
+    width: 80%;
+    height: 20vh;
+    margin: 3% auto;
+}
+
+.btn {
+    margin-bottom: 30px;
+    font-size: 30px;
+    border: 2px solid brown;
+    padding: 8px 30px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: black;
+    border: 5px solid brown;
+    outline: 2px solid black;
+    outline-offset: 10px;
+}
+
+.secondDive {
+    border: 2px solid red;
+    width: 80%;
+    margin: 50px 80px;
+    padding: 20px;
+
+}
+
+.thirdtDiv {
+    border: 2px solid brown;
+    min-height: 20vh;
+    max-height: 22vh;
+    overflow-y: scroll;
+
+    min-width: 20%;
+    max-width: 50%;
+
+}

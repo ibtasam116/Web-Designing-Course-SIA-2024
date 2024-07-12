@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body align="center">
+    <form action="">
+
+        <h1>Employee Interests Survey form </h1>
+        <div>Enter Your Name: <input type="text" name="Name" value="" placeholder="Enter Your Name" required> </div>
+        <br>        
+        <div>Enter Your Department: <input type="text" name="Departement" placeholder="Enter Your Department" required> </div>
+        <br>        
+        <div>Tell us a little about yourself: <textarea name="textarea" cols="20" rows="4"></textarea> </div>
+        <br>        
+        <div>
+            Do you exercise at home?
+            <input type="radio" name="ExerciseAtHome" value="Yes" id="ExerciseAtHome">
+            <label for="ExerciseAtHome"">Yes</label>
+            <input type="radio" name="ExerciseAtHome" value="No" id="ExerciseAtNoHome">
+            <label for="ExerciseAtNoHome">No</label>
+        </div>
+        <br>
+
+        <div>How do you like to read about your favorite topics? </div>
+        <br>
+        <div>
+            <input type="checkbox" name="FavoriteTopic" value="Reading" id="BooksReading">
+            <label for="BooksReading">Books</label>
+            <input type="checkbox" name="FavoriteTopic" value="Resources" id="OnlineResources">
+            <label for="OnlineResources">Online resources</label>
+            <input type="checkbox" name="Phone" value="PhoneApp" id="PhoneApp">
+            <label for="PhoneApp">Phone apps</label>
+            <input type="checkbox" name="Magazine" value="Reading" id="ReadMagazine">
+            <label for="ReadMagazine">Magazines</label>
+        </div>
+        <br>
+        
+        <div>What genre of movies do you like?
+            <select name="movies">
+                <Optgroup label="Movies"></Optgroup>
+                <option value="TareZameenPr">Tare Zameen Pr</option>
+                <option value="DillWalyDulhan">Dill Waly Dulhan</option>
+                <option value="RakhaHonsala">Rakha Honsala</option>
+                <optgroup label="Sessions"></optgroup>
+                <option value="MoneyHeist" selected>Money Heist</option>
+                <option value="ErtrulGazi">Ertrul Gazi</option>
+            </select>            
+        </div>
+        <br>
+        <input type="submit" value="Submit Form">
+        <br><br>
+        <button><a href="./table.html" target="_blank">Go To Table Page</a></button>
+    </form>
+</body>
+
+</html>

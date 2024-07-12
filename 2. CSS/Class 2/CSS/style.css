@@ -1,0 +1,47 @@
+.CSS_Border{
+ text-align: center;
+}
+.text_Center{
+    text-align: center;
+}
+
+.CSS_Border_Apply{
+    border-width: 10px;
+    border-style: solid;
+    border-color: brown;
+}
+
+.CSS_Border_Apply_Doted{
+    border-width: 15px;
+    border-style: groove;
+    border-color: brown;
+}
+
+.CSS_Border_Apply_Short{
+    border: 5px solid purple;
+}
+
+.computer{
+    border-top: 2px solid green;
+}
+.computer1{
+    border-bottom: 2px solid purple;
+}
+.computer2{
+    border-right: 2px solid orangered;
+}
+.computer3{
+    border-left: 2px solid navy;
+}
+.computer4{
+    border-top: 5px solid green;
+    border-bottom: 5px solid purple;
+    border-right: 5px solid orangered;
+    border-left: 5px solid navy;
+    border-radius: 30px;
+}
+
+.CSS_Border_Radius{
+    border: 3px solid navy;
+    border-radius: 3px;
+}

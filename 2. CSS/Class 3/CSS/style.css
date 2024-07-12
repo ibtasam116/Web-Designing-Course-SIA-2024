@@ -1,0 +1,63 @@
+.text-center {
+    text-align: center;
+}
+
+.Today-Topic {
+
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+}
+
+.topic-1 {
+    color: brown;
+    font-size: 30px;
+}
+
+.Outline {
+    color: blue;
+    font-size: 20px;
+}
+
+.Apply-outline-1 {
+    display: inline;
+    font-size: 30px;
+    outline-width: 2px;
+    outline-color: red;
+    outline-style: solid;
+}
+
+.Apply-outline-2 {
+    display: inline;
+    font-size: 30px;
+    outline: 2px red solid;
+    outline-offset: 10px;
+    border: 2px rebeccapurple solid;
+}
+
+.Apply-Border-1 {
+    display: inline;
+    font-size: 30px;
+    border: 5px solid green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-end-start-radius: 50px;
+}
+
+.Check-Padding {
+    border: 2px solid brown;
+    /* padding: 100px; */
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.Check-Padding-1 {
+    border: 2px solid green;
+    padding: 30px 60px 90px 250px;
+    border-radius: 30px;
+    outline: 6px groove black;
+    outline-offset: 10px;
+}
