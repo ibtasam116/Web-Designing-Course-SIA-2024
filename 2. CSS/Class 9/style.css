@@ -1,0 +1,26 @@
+.text-center {
+    text-align: center;
+}
+
+.text {
+    text-shadow: 0px 0px 2px orangered;
+}
+
+.box {
+    width: 20%;
+    height: 30vh;
+    border: 3px solid brown;
+    background-color: brown;
+    margin: 0% auto;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 10px 5px black;
+
+}
+
+.text1:hover{
+    text-shadow: 3px 3px 2px orangered;
+    display: flex;
+
+}
