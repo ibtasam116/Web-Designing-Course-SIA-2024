@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 04</title>
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="body1">
+        <header>
+            <div class="container header">
+                <ul class="header-ul">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Lectures</a></li>
+                    <li><a href="">Assignments</a></li>
+                    <li><a href="">Final Project</a></li>
+                    <li><a href="">Labs</a></li>
+                    <li><a href="">Docs</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="container1">
+            <div class="main-first">
+                <h1>Assignment 4: Static Web: HTML/CSS</h1>
+                <p>Due Sunday, July 16 11:59pm PST</p>
+            </div>
+            <div class="setup">
+                <h1>Setup</h1>
+                <p class="gitclass">Accept the Github Classroom <span class="yellow">assignment</span> and clone this
+                    repo
+                    that contains
+                    stencil code for Assignment 4.</p>
+                <br>
+                <h1>Introduction</h1>
+                <p>This is muti-part assignment with the objective of making you comfortable working with HTML and CSS.
+                    By
+                    the end of this assignment, you will have styled some rectangular blocks and creative a simple
+                    version
+                    of Twitter's home page.</p>
+                <br>
+                <p>If this assignment seems overwhelming to you, please come see a TA at TA hours to talk through some
+                    strategies for tacking it. We expect this assignment to be a time-consuming assignment as we cover a
+                    lot
+                    of fundamental techniques. But with a good strategy, it can be finished in a reasonable amount of
+                    time.
+                </p>
+                <br>
+                <p>Note: Only CSS and HTML will be used for this assignment. If you want to use JavaScript (or libraries
+                    such as jQuery) then feel free to, but we will only be grading correctness on your CSS and HTML.</p>
+                <br>
+                <p>If tou can, <strong>Start Early!</strong></p>
+            </div>
+            <br>
+            <div id="partone">
+                <h1>Part One</h1>
+                <h2>Specifications</h2>
+                <p>Now that you understand some of the basics of HTMK and CSS, let's take a look at how to align HTML
+                    elements. There are multiple ways to align HTML elements, but in this part , we recommend using
+                    flexboxes as they are widely used in modern web development (for example BootstrapV4 is built on top
+                    of
+                    flexboxes).</p>
+                <br>
+                <p>Refer to this great webpage on how to use flexboxes: <span class="yellow">CSS Flexbox Guide</span>
+                </p>
+                <br>
+                <p>Also feel free to use online resources such as Stack Overflow, MDN, W3, and Google for reference.</p>
+                <br>
+                <p>When you open the provided HTML file <span><code class="part1">part1/index.html , </code></span>it
+                    should
+                    look like this:</p>
+            </div>
+            <br>
+
+            <!-- Assignment 1 Start  -->
+            <div id="rows">
+                <h3>Assignment 1</h3>
+                <h2>Provided Examples</h2>
+                <label for="">Row 1</label>
+                <div class="row row1"></div>
+
+                <label for="">Row 2</label>
+                <div class="row row2"></div>
+
+                <h3>Student TODOs</h3>
+
+                <label for="">Row 3</label>
+                <div class="row"></div>
+
+                <label for="">Row 4</label>
+                <div class="row"></div>
+
+                <label for="">Row 5</label>
+                <div class="row"></div>
+
+                <label for="">Row 6</label>
+                <div class="row"></div>
+
+                <label for="">Row 7</label>
+                <div class="row"></div>
+
+                <label for="">Row 8</label>
+                <div class="row"></div>
+
+                <label for="">Row 9</label>
+                <div class="row"></div>
+                <br>
+            </div>
+            <hr>
+            <div class="ninegreen">
+                <p>As you can seen, there are 9 rectangles. The styling and markup of first tow rectangles are already
+                    built
+                    for you. Your task is to apply styling and add div elements inside of the next 7 green rectangular
+                    blocks to create a webpage that looks like this:</p>
+            </div>
+            <br>
+            <div id="dirow">
+                <h3>Assignment 1</h3>
+                <h2>Provided Examples</h2>
+
+                <div class="label-dirow">Row 1</div>
+                <div class="dicrow"></div>
+
+                <div class="label-dirow">Row 2</div>
+                <div class="dicrow1"></div>
+
+                <h2>Student TODOs</h2>
+
+                <div class="label-dirow">Row 3</div>
+                <div class="dicrow2"></div>
+
+                <div class="label-dirow">Row 4</div>
+                <div class="dicrow3"></div>
+
+                <div class="label-dirow">Row 5</div>
+                <div class="dicrow4"></div>
+
+                <div class="label-dirow">Row 6</div>
+                <div class="dicrow5"></div>
+
+                <div class="label-dirow">Row 7</div>
+                <div class="dicrow16"></div>
+                <div class="dicrow6"></div>
+
+                <div class="label-dirow1">Row 8</div>
+                <div class="dicrow17"></div>
+                <div class="dicrow117"></div>
+                <div class="dicrow17"></div>
+
+                <div class="label-dirow1">Row 9</div>
+                <div class="dicrow18"></div>
+                <div class="dicrow118"></div>
+                <div class="dicrow1118"></div>
+                <div class="dicrow11118"></div>
+                <br>
+            </div>
+
+            <div class="responsive">
+                <p>Note that these rectangular blocks should be responsive. Here is what they look like when the window
+                    is
+                    thinner:</p>
+            </div>
+
+            <!-- Next Half Rows  -->
+
+            <div id="sirow">
+                <h3>Assignment 1</h3>
+                <h2>Provided Examples</h2>
+
+                <div class="label-sicrow">Row 1</div>
+                <div class="sicrow"></div>
+
+                <div class="label-sicrow">Row 2</div>
+                <div class="sicrow1"></div>
+
+                <h3>Student TODOs</h3>
+
+                <div class="label-sicrow">Row 3</div>
+                <div class="sicrow2"></div>
+
+                <div class="label-sicrow">Row 4</div>
+                <div class="sicrow3"></div>
+
+                <div class="label-sicrow">Row 5</div>
+                <div class="sicrow4"></div>
+
+                <div class="label-sicrow">Row 6</div>
+                <div class="sicrow5"></div>
+
+                <div class="label-sicrow">Row 7</div>
+                <div class="sicrow16"></div>
+                <div class="sicrow6"></div>
+
+                <div class="label-sicrow1">Row 8</div>
+                <div class="sicrow17"></div>
+                <div class="sicrow117"></div>
+                <div class="sicrow17"></div>
+
+                <div class="label-sicrow1">Row 9</div>
+                <div class="sicrow17"></div>
+                <div class="sicrow117"></div>
+                <div class="sicrow17"></div>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <!-- Text Area  -->
+
+            <div>
+                <p class="dynamically">we will describe how each row will behave dynamically and provide some hinti for
+                    a
+                    possible approach:</p>
+            </div>
+            <!-- <br> -->
+            <div class="ligroup">
+                <ol start="3">
+                    <li>For the third row, the red and blue end rectangles should remain the same width, and the green
+                        space
+                        should shrink.
+                        <br>
+                        <br>
+                        <p class="italic">Possible Approach: Have a div with a red background and a div with ablue
+                            background, both with
+                            fixed
+                            width. Use an approach value for <span class="yellow">justify content.</span></p>
+                    </li>
+                    <li>
+                        For the forth row, the blue end rectangle should remain the same width, and the red rectangle
+                        should
+                        shrink.
+                        <br>
+                        <br>
+                        <p class="italic">Possible Approach: Have a div with a red background and a div with a blue
+                            background. Have a
+                            fixed
+                            width on the blue div. Use <span class="yellow">FLex Grow. </span></p>
+                    </li>
+                    <li>
+                        For the fifth row, the red square should remain the same size, but always remain in the center
+                        of
+                        the
+                        green rectangle.
+                        <br>
+                        <br>
+                        <p class="italic">Hinit: The think about how to keeo a div fixed size and how to align something
+                            in
+                            the absolute
+                            center of
+                            the parent element.</p>
+                    </li>
+                    <li>
+                        For the sixth row, the blue rectangle should remain the same size, while the red rectangles
+                        should
+                        shrink. The blue rectangle should remain in the center of the row.
+                        <br>
+                        <br>
+                        Hinit: Use two red divs.
+                    </li>
+                    <li>
+                        For the seventh row, the red rectangle should remain the same width.
+                        <br>
+                        <br>
+                        <p class="italic">
+                            Hinit: Nest divs and use <span><code
+                                    class="part1">background-color: transparent</code></span>
+                        </p>
+                    </li>
+                    <li>
+                        For the eighth row, the orange rectangles should remain the same size while the green space
+                        between
+                        them
+                        shrinks,
+                    </li>
+                    <li>
+                        For the ninth row, the green space between the orange rectangles shpuld remain the same width
+                        while
+                        the
+                        orange rectangles nerrow.
+                    </li>
+                    <br>
+                </ol>
+            </div>
+            <div class="many">
+                <p>The example we provided with the first two rectangular block use flexboxes. You are not required to
+                    use
+                    flexboxes for the next 7 rows, but we recommend it as it will also be useful in part 2 of this
+                    assignment.</p>
+                <br>
+                <p>
+                    You should only have to use the <span class="part1">div </span> html element to complete this
+                    assignment. Also,
+                    <span class="bold">none of the divs you create inside of the provided wrapper divs should have
+                        <span><code class="yellow">background-color: green; </code>. </span></span>But it is valid to
+                    specify
+                    non-green
+                    background colors for any divs, including the wrapper.
+                </p>
+                <br>
+                <p>
+                    Try to style the boxes as closely to the solution image as possible don't worry about getting exact
+                    dimensions or rgb values. We care about what structure, CSS styles you used and the dynamic behavior
+                    of
+                    the page. However just for reference,
+                </p>
+                <br>
+                <div class="ullist">
+                    <ul>
+                        <li>
+                            The color of the boxes we used are <span class="yellow">background-color: </span><span
+                                class="hilitred hilit">red </span>&nbsp;, <span class="hilitblue hilit">blur
+                            </span>&nbsp;, and <span class="hilitgreen hilit">orange</span>
+                        </li>
+                        <li>
+                            Some width/height values we used are <span class="yellow">20px, 40px, 80px</span>
+                        </li>
+                    </ul>
+                    <br>
+                    <p>
+                        You are not required to use Bootstrap in this part You can use if you want, but we actually
+                        recommend writing plain CSS. Just for this part; inline CSS is acceptable: but you should
+                        generally
+                        avoid using inline CSS in the future.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <h1 class="General">General Notes</h1>
+            <div class="reminder">
+                <p>
+                    As a reminder, it's a good idea to run your HTML and CSS syntax through validators. You should also
+                    consider using an accessibility checker such as WAVE.
+                </p>
+            </div>
+            <br>
+            <h1 class="Troubleshooting">Troubleshooting</h1>
+            <div id="Troubleshooting">
+                <p>
+                    There are hundreds of HTML and CSS tags: properties: and values; and we do not expect students to
+                    learn
+                    each one by heart. However, this assignment and the first lab are intended for you to intuitively
+                    understand the languages. and to be proficient at knowing how to tackle a design by the end of the
+                    semester.
+                </p>
+                <p>
+                    If you're having problems, there are many guides on HTML and CSS online (CSSTricks and MDN are your
+                    friends), as well as on our resources page.
+                </p>
+                <p class="Troubleshooting1">
+                    As always. if you are stuck on a particular part. you can always talk to the friendly TAs or ask
+                    questions on course piazza (check your email for a signup link).
+                </p>
+                <p class="bold">
+                    As a general rule of thumb, do not expect TAs to be able to solve every web problem you have. Even
+                    the
+                    most adept web developer can struggle a lot with specific CSS rules to use.
+                </p>
+            </div>
+            <br>
+        </main>
+    </div>
+
+    <!-- Footer Start  -->
+    <footer>
+        <div class="fot">
+            <p>&copy; 2024 | Muhammad IbTaSaM JuTT</p>
+            <p class="web">www.muhammadibtasam.net</p>
+        </div>
+    </footer>
+</body>
+
+</html>

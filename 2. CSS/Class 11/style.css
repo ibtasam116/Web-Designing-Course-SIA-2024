@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Box1 {
+    width: 30%;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+.whatsapp {
+    width: 4.5%;
+    height: 10vh;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+}
+
+.Box2 {
+    width: 80%;
+    height: 8vh;
+    background-color: black;
+    position: relative;
+    top: 85%;
+    left: 130px;
+}
+
+.up {
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.chec-flex {
+    width: 80%;
+    height: 30vh;
+    margin: 0px auto;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    /* 
+}
