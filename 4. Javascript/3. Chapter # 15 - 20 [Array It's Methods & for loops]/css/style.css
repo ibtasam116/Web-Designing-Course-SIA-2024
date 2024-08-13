@@ -1,0 +1,36 @@
+.border {
+  border-color: #1d3557 !important;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+body header nav.navbar {
+  background-color: #1d3557 !important;
+}
+
+body main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+body main .originalStringBox {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+body main .buttons .btn {
+  margin-bottom: 8px;
+  min-width: 45%;
+}
+
+body main .buttons .btn:last-child {
+  margin-bottom: 0;
+}
+
+body footer {
+  background-color: #1d3557;
+}
+/*# sourceMappingURL=style.css.map */

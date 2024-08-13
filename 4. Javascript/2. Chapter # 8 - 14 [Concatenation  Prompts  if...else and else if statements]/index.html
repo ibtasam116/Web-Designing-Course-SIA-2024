@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript: Chapter # 8 - 14</title>
+
+    <!-- Bootstrap CSS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animation Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark backcolor">
+        <div class="container">
+          <a class="navbar-brand" href="javascript:void(0)">Assignment</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Chapter 8 - 14</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex">
+              <span class="text-white fw-bold" id="showUserName"
+                >Please Enter UserNmae</span
+              >
+            </div>
+            <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <div id="userNameId" class="text-light text-center mx-5 mt-2"></div>
+                        <button class="btn btn-outline-success" id="showUserName" type="submit">Click To Show User
+                            Name</button>
+                    </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Chapters Name -->
+      <div class="py-5">
+        <div class="container">
+          <div class="row mb-3 mb-md-5">
+            <div class="col">
+              <h3 class="text-center">
+                Chapter # 8 - 14 | Concatenation | Prompts | if...else and else
+                if statements
+              </h3>
+              <div class="border-bottom mt-4 border-secondary"></div>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="row">
+            <div class="col">
+              <div
+                class="buttons border border-secondary rounded-3 p-4 text-center"
+              >
+                <button class="btn btn-danger" id="concatenateSomeString">
+                  Concatenate Some Strings
+                </button>
+                <button class="btn btn-danger" id="askNameFromUser">
+                  Ask Name From User
+                </button>
+                <button class="btn btn-danger" id="comparisonOperators">
+                  Comparison Operators
+                </button>
+                <button class="btn btn-danger" id="ifElseIf">if else if</button>
+                <button class="btn btn-danger" id="testSetOfConditions">
+                  Testing Sets of Conditions
+                </button>
+                <button class="btn btn-danger" id="ifStatementNested">
+                  if Statement Nested
+                </button>
+                <button class="btn btn-danger" id="loginUser">Login</button>
+                <button class="btn btn-danger" id="Ternary">Tern</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Original Statement Box -->
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">Original Statement</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="border border-secondary rounded-3 p-4">
+                <div id="originalStatement" class="text-center"></div>
+              </div>
+              <div class="text-center">
+                <button
+                  class="btn btn-outline-dark mt-4"
+                  id="clearStatementButton"
+                >
+                  Clear Satement
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Output / Result -->
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">Output / Result</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="border border-secondary rounded-3 p-4">
+                <div id="outputResult" class="text-center"></div>
+              </div>
+              <div class="text-center">
+                <button
+                  class="btn btn-outline-dark mt-4"
+                  id="clearOutputButton"
+                >
+                  Clear Output
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="backcolor">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="mb-0 text-center text-white bg-#1C3458">
+              &copy; 2022. Assignment By
+              <span class="fw-bold">Muhammad IbTaSaM</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <ul>
+        <li>A variable name can't contain any spaces.</li>
+        <li>A variable name can contain only letter, numbers, dollar sign, and underscore</li>
+        <li>Though a variable name can't be any of javaScript's keywords, it can contain keyword. For example, <code>userAlert</code> and <code>myVar</code> are legal.</li>
+        <li>Capital letters are fine, but be careful, Variable name are case sensitive. A <code>rose </code>is not a <code>Rose. </code>If you assign the string "Floribundas" to the variable <code>rose, </code> and then ask JavaScript for the value assigned to <code>Rose, </code> you'll come up empty.</li>
+    </ul> -->
+
+    <!-- <p class="text-center"></p> -->
+
+    <!-- <h3>Example</h3>
+    <ul>
+        <li><code>user</code></li>
+        <li><code>userResponse</code></li>
+        <li><code>userResponseTime</code></li>
+        <li><code>userResponseTimeLimit</code></li>
+    </ul> -->
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS File -->
+    <!-- <script src="./js/script.js"></script> -->
+    <script>
+      document.getElementById("Ternary").onclick = function () {
+        let val1 = prompt("Enter First Value");
+        let val2 = prompt("Enter Second Value");
+
+        val1 > val2 ? console.log("True") : console.log("False");
+      };
+
+      document.getElementById("concatenateSomeString").onclick = function () {
+        let message = 2;
+        let name = "Ibtasam";
+
+        document.getElementById("originalStatement").innerHTML = message + name;
+      };
+
+      document.getElementById("askNameFromUser").onclick = function () {
+        let name = prompt("Enter Your Name");
+
+        document.getElementById("originalStatement").innerHTML = 2 + name;
+      };
+
+      document.getElementById("comparisonOperators").onclick = function () {
+        let num1 = prompt("Enter First Number");
+        let num2 = prompt("Enter Second Number");
+
+        if (num1 > num2) {
+          alert("Firts Number is greater than second number");
+
+          let Statement = "Firts Number is greater than second number";
+          document.getElementById("originalStatement").innerHTML = Statement;
+        } else {
+          alert("Firts Number is less than second number");
+          let Statement = "Firts Number is less than second number";
+          document.getElementById("originalStatement").innerHTML = Statement;
+        }
+      };
+
+      document.getElementById("ifElseIf").onclick = function () {
+        let weekName = prompt("Enter Week Name");
+
+        if (weekName == 1) {
+          alert("Monday");
+        } else if (weekName == 2) {
+          alert("Tuesday");
+        } else if (weekName == 3) {
+          alert("Wednesday");
+        } else if (weekName == 4) {
+          alert("Thursday");
+        } else if (weekName == 5) {
+          alert("Friday");
+        } else if (weekName == 6) {
+          alert("Saturday");
+        } else if (weekName == 7) {
+          alert("Sunday");
+        } else {
+          alert("Invalid Number");
+        }
+      };
+    </script>
+  </body>
+</html>

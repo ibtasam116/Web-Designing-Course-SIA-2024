@@ -1,0 +1,27 @@
+/* Navbar */
+.backcolor {
+    background-color: #1C3458;
+}
+
+
+/* Buttons */
+.buttons button {
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+footer {
+    height: 40px;
+}
+
+footer p {
+    line-height: 40px;
+}
+
+.navbar-brand {
+    animation: flash;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}

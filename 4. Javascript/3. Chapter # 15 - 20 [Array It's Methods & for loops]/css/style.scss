@@ -1,0 +1,42 @@
+$primarycolor: #1d3557;
+$lightcolor: #f1faee;
+
+.border {
+    border-color: $primarycolor  !important;
+}
+
+body {
+    background-color: $lightcolor;
+
+
+
+    header {
+        nav.navbar {
+            background-color: $primarycolor  !important;
+        }
+    }
+
+    main {
+        flex: 1 0 auto;
+
+        .originalStringBox {
+            background-color: $primarycolor;
+            color: $lightcolor;
+        }
+
+        .buttons {
+            .btn {
+                margin-bottom: 8px;
+                min-width: 45%;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: $primarycolor;
+    }
+}
