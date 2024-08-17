@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Date</title>
+  </head>
+  <body>
+    <a href="./login.html">
+      <button>Login</button>
+    </a>
+    <h4 id="year"></h4>
+    <h4>Seconds</h4>
+    <h3 id="sec"></h3>
+    <h3 id="msec"></h3>
+    <script>
+      setInterval(seconds, 1000);
+      function seconds() {
+        var now = new Date();
+        var sec = now.getSeconds();
+        var mSec = now.getMilliseconds();
+        document.getElementById("sec").innerHTML = sec;
+        document.getElementById("msec").innerHTML = mSec;
+      }
+
+      var now = new Date();
+      console.log(now);
+      var year = now.getDay();
+      if (year === 1) {
+        document.getElementById("year").innerText = "Monday";
+      } else if (year === 2) {
+        document.getElementById("year").innerText = "Tuesday";
+      } else if (year === 3) {
+        document.getElementById("year").innerText = "Wednesday";
+      }
+      // console.log(year)
+    </script>
+  </body>
+</html>

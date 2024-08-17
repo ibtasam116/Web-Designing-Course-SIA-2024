@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background for the body */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-box {
+            background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background for the card */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+        .login-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-group input {
+            height: 45px;
+            border-radius: 25px;
+            border: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+        .form-group input::placeholder {
+            color: #e0e0e0;
+        }
+        .form-group input:focus {
+            background-color: rgba(255, 255, 255, 0.3);
+            outline: none;
+            box-shadow: none;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            height: 45px;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 25px;
+        }
+        .form-text {
+            text-align: center;
+            margin-top: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <small class="form-text">Don't have an account? <a href="#" style="color: white;">Sign up</a></small>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
